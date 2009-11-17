@@ -1,0 +1,230 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED537D9B-532D-4744-9033-D68F32EAE83A}</ProjectGuid>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>MusicShuffler</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>MusicShuffler</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lib\COPYING_LGPL.txt" />
+    <Content Include="lib\taglib-sharp.dll" />
+    <Content Include="src\Text\LICENCE.BSD.txt" />
+    <Content Include="src\Text\LICENCE.LGPL.txt" />
+    <Content Include="src\Text\README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\app.config" />
+    <None Include="src\Controls\.svn\all-wcprops" />
+    <None Include="src\Controls\.svn\entries" />
+    <None Include="src\Controls\.svn\text-base\EtchedLine.cs.svn-base" />
+    <None Include="src\Controls\.svn\text-base\EtchedLine.Designer.cs.svn-base" />
+    <None Include="src\Controls\.svn\text-base\SongListView.cs.svn-base" />
+    <None Include="src\Controls\.svn\text-base\TimeSpanBox.cs.svn-base" />
+    <None Include="src\Controls\.svn\text-base\TimeSpanBox.Designer.cs.svn-base" />
+    <None Include="src\Controls\.svn\text-base\TimeSpanBox.resx.svn-base" />
+    <None Include="src\Filtering\.svn\all-wcprops" />
+    <None Include="src\Filtering\.svn\entries" />
+    <None Include="src\Filtering\.svn\text-base\ArtistFilter.cs.svn-base" />
+    <None Include="src\Filtering\.svn\text-base\DurationFilter.cs.svn-base" />
+    <None Include="src\Filtering\.svn\text-base\FilterChain.cs.svn-base" />
+    <None Include="src\Filtering\.svn\text-base\GenreFilter.cs.svn-base" />
+    <None Include="src\Filtering\.svn\text-base\IFilter.cs.svn-base" />
+    <None Include="src\Forms\.svn\all-wcprops" />
+    <None Include="src\Forms\.svn\entries" />
+    <None Include="src\Forms\.svn\text-base\AddSongsForm.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\AddSongsForm.Designer.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\AddSongsForm.resx.svn-base" />
+    <None Include="src\Forms\.svn\text-base\BaseForm.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\DoCopyForm.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\DoCopyForm.Designer.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\DoCopyForm.resx.svn-base" />
+    <None Include="src\Forms\.svn\text-base\DoLoadLibraryForm.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\DoLoadLibraryForm.Designer.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\DoLoadLibraryForm.resx.svn-base" />
+    <None Include="src\Forms\.svn\text-base\EditFiltersForm.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\EditFiltersForm.Designer.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\EditFiltersForm.resx.svn-base" />
+    <None Include="src\Forms\.svn\text-base\MainForm.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\MainForm.Designer.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\MainForm.resx.svn-base" />
+    <None Include="src\Forms\.svn\text-base\PlaylistForm.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\PlaylistForm.Designer.cs.svn-base" />
+    <None Include="src\Forms\.svn\text-base\PlaylistForm.resx.svn-base" />
+    <None Include="src\Properties\.svn\all-wcprops" />
+    <None Include="src\Properties\.svn\entries" />
+    <None Include="src\Properties\.svn\text-base\AssemblyInfo.cs.svn-base" />
+    <None Include="src\Properties\.svn\text-base\Resources.Designer.cs.svn-base" />
+    <None Include="src\Properties\.svn\text-base\Resources.resx.svn-base" />
+    <None Include="src\Text\.svn\all-wcprops" />
+    <None Include="src\Text\.svn\entries" />
+    <None Include="src\Text\.svn\text-base\LICENCE.BSD.txt.svn-base" />
+    <None Include="src\Text\.svn\text-base\LICENCE.LGPL.txt.svn-base" />
+    <None Include="src\Text\.svn\text-base\README.txt.svn-base" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\Constants.cs" />
+    <Compile Include="src\Controls\EtchedLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="src\Controls\EtchedLine.Designer.cs">
+      <DependentUpon>EtchedLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Controls\SongListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Controls\TimeSpanBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="src\Controls\TimeSpanBox.Designer.cs">
+      <DependentUpon>TimeSpanBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Extensions.cs" />
+    <Compile Include="src\FileCopyWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Filtering\ArtistFilter.cs" />
+    <Compile Include="src\Filtering\DurationFilter.cs" />
+    <Compile Include="src\Filtering\FilterChain.cs" />
+    <Compile Include="src\Filtering\GenreFilter.cs" />
+    <Compile Include="src\Filtering\IFilter.cs" />
+    <Compile Include="src\Forms\AddSongsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Forms\AddSongsForm.Designer.cs">
+      <DependentUpon>AddSongsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Forms\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Forms\DoCopyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Forms\DoCopyForm.Designer.cs">
+      <DependentUpon>DoCopyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Forms\DoLoadLibraryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Forms\DoLoadLibraryForm.Designer.cs">
+      <DependentUpon>DoLoadLibraryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Forms\EditFiltersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Forms\EditFiltersForm.Designer.cs">
+      <DependentUpon>EditFiltersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Forms\PlaylistForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Forms\PlaylistForm.Designer.cs">
+      <DependentUpon>PlaylistForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Library.cs" />
+    <Compile Include="src\Playlist.cs" />
+    <Compile Include="src\Presets.cs" />
+    <Compile Include="src\Program.cs" />
+    <Compile Include="src\Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Properties\Resources.Designer.cs" />
+    <Compile Include="src\Song.cs" />
+    <Compile Include="src\Strings.Designer.cs" />
+    <Compile Include="src\Utils.cs" />
+    <Compile Include="src\XmlSerializationTool.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="src\Controls\TimeSpanBox.resx">
+      <DependentUpon>TimeSpanBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Forms\AddSongsForm.resx">
+      <DependentUpon>AddSongsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Forms\DoCopyForm.resx">
+      <DependentUpon>DoCopyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Forms\DoLoadLibraryForm.resx">
+      <DependentUpon>DoLoadLibraryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Forms\EditFiltersForm.resx">
+      <DependentUpon>EditFiltersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Forms\PlaylistForm.resx">
+      <DependentUpon>PlaylistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Properties\Resources.resx" />
+    <EmbeddedResource Include="src\Strings.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\Controls\.svn\prop-base\" />
+    <Folder Include="src\Controls\.svn\props\" />
+    <Folder Include="src\Controls\.svn\tmp\prop-base\" />
+    <Folder Include="src\Controls\.svn\tmp\props\" />
+    <Folder Include="src\Controls\.svn\tmp\text-base\" />
+    <Folder Include="src\Filtering\.svn\prop-base\" />
+    <Folder Include="src\Filtering\.svn\props\" />
+    <Folder Include="src\Filtering\.svn\tmp\prop-base\" />
+    <Folder Include="src\Filtering\.svn\tmp\props\" />
+    <Folder Include="src\Filtering\.svn\tmp\text-base\" />
+    <Folder Include="src\Forms\.svn\prop-base\" />
+    <Folder Include="src\Forms\.svn\props\" />
+    <Folder Include="src\Forms\.svn\tmp\prop-base\" />
+    <Folder Include="src\Forms\.svn\tmp\props\" />
+    <Folder Include="src\Forms\.svn\tmp\text-base\" />
+    <Folder Include="src\Properties\.svn\prop-base\" />
+    <Folder Include="src\Properties\.svn\props\" />
+    <Folder Include="src\Properties\.svn\tmp\prop-base\" />
+    <Folder Include="src\Properties\.svn\tmp\props\" />
+    <Folder Include="src\Properties\.svn\tmp\text-base\" />
+    <Folder Include="src\Text\.svn\prop-base\" />
+    <Folder Include="src\Text\.svn\props\" />
+    <Folder Include="src\Text\.svn\tmp\prop-base\" />
+    <Folder Include="src\Text\.svn\tmp\props\" />
+    <Folder Include="src\Text\.svn\tmp\text-base\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
