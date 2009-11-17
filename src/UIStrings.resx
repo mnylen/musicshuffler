@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddButton" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddFromLibraryButton" xml:space="preserve">
+    <value>Add From Library</value>
+  </data>
+  <data name="AddSongsFromArtist" xml:space="preserve">
+    <value>Add songs from {0}</value>
+  </data>
+  <data name="AddSongsFromGenre" xml:space="preserve">
+    <value>Add songs from genre {0}</value>
+  </data>
+  <data name="AddSongsFromLibrary" xml:space="preserve">
+    <value>Add Songs From Library</value>
+  </data>
+  <data name="AF_MboxCaption_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="AF_MboxText_LessThan20" xml:space="preserve">
+    <value>If you add the song "{0}" to the list, there will be less than 20 % available for randomly selected songs. Do you want to proceed?</value>
+  </data>
+  <data name="AF_MboxText_OverTargetSize" xml:space="preserve">
+    <value>By adding song "{0}" to the playlist you will exceed the specified target size. The playlist might not fit the given destination. Are you sure you want to proceed?</value>
+  </data>
+  <data name="ApplyButton" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CopyButton" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="CopyFailed" xml:space="preserve">
+    <value>Failed to copy the file {0} to the destination. The error message was:\r\n\r\n{1}</value>
+  </data>
+  <data name="CopyingSongs" xml:space="preserve">
+    <value>Copying songs...</value>
+  </data>
+  <data name="CurrentFileIndicator" xml:space="preserve">
+    <value>Copying file {0} of {1}</value>
+  </data>
+  <data name="DonePercentage" xml:space="preserve">
+    <value>Done  {0} %</value>
+  </data>
+  <data name="EditFilters" xml:space="preserve">
+    <value>Edit filters</value>
+  </data>
+  <data name="EditFiltersButton" xml:space="preserve">
+    <value>Edit Filters</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ExcludeArtist" xml:space="preserve">
+    <value>Exclude artist {0}</value>
+  </data>
+  <data name="ExcludeGenre" xml:space="preserve">
+    <value>Exclude genre {0}</value>
+  </data>
+  <data name="ExcludeSelectedArtists" xml:space="preserve">
+    <value>Exclude selected artists:</value>
+  </data>
+  <data name="ExcludeSelectedGenres" xml:space="preserve">
+    <value>Exclude selected genres:</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ExtractingMetadata" xml:space="preserve">
+    <value>Extracting song metadata... Please wait</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>hours</value>
+  </data>
+  <data name="LimitMaximumDuration" xml:space="preserve">
+    <value>Limit songs maximum duration to:</value>
+  </data>
+  <data name="LimitMinimumDuration" xml:space="preserve">
+    <value>Limit songs minimum duration to:</value>
+  </data>
+  <data name="LoadingLibrary" xml:space="preserve">
+    <value>Loading library...</value>
+  </data>
+  <data name="MboxCaption_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="MF_BrowseButton" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="MF_DestinationDirectoryLabel" xml:space="preserve">
+    <value>Destination directory:</value>
+  </data>
+  <data name="MF_GeneratePlaylistButton" xml:space="preserve">
+    <value>Generate Playlist</value>
+  </data>
+  <data name="MF_MbLabel" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="MF_MboxCaption_DirectoryNotFound" xml:space="preserve">
+    <value>Directory not found</value>
+  </data>
+  <data name="MF_MboxCaption_RequiredValue" xml:space="preserve">
+    <value>Required value not set</value>
+  </data>
+  <data name="MF_MboxCaption_TargetSizeLessThan50" xml:space="preserve">
+    <value>Target size is less than 50 MB</value>
+  </data>
+  <data name="MF_MboxCaption_TargetSizeOverSpaceLeft" xml:space="preserve">
+    <value>Not enough disk space</value>
+  </data>
+  <data name="MF_MboxText_AtLeastOneSearchDirectory" xml:space="preserve">
+    <value>You must select at least one search directory.</value>
+  </data>
+  <data name="MF_MboxText_DestinationDirectoryNotFound" xml:space="preserve">
+    <value>The given destination directory does not exist. Would you like to create it now?</value>
+  </data>
+  <data name="MF_MboxText_DestinationDirectoryRequired" xml:space="preserve">
+    <value>You must set the destination directory</value>
+  </data>
+  <data name="MF_MboxText_DirectoryCreateFailed" xml:space="preserve">
+    <value>Failed to create directory {0}. The error message was:\r\n\r\n{1}</value>
+  </data>
+  <data name="MF_MboxText_SearchDirectoryNotFound" xml:space="preserve">
+    <value>The following search directory does not exist, and it won't be searched for audio files:\r\n\r\n{0}</value>
+  </data>
+  <data name="MF_MboxText_TargetSizeLessThan50" xml:space="preserve">
+    <value>The specified target size is less than 50 MB. Would you like to reconsider the amount?</value>
+  </data>
+  <data name="MF_MboxText_TargetSizeOverSpaceLeft" xml:space="preserve">
+    <value>The specified target size {0} is more than the available free space on the selected disk. There's only {1} of free space available.</value>
+  </data>
+  <data name="MF_RemoveDirectoryButton" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="MF_SearchDirectoriesLabel" xml:space="preserve">
+    <value>Directories to search:</value>
+  </data>
+  <data name="MF_TargetSizeLabel" xml:space="preserve">
+    <value>Target size:</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="Playlist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="RemoveSong" xml:space="preserve">
+    <value>Remove song from playlist</value>
+  </data>
+  <data name="ReshuffleButton" xml:space="preserve">
+    <value>Reshuffle</value>
+  </data>
+  <data name="ReshuffleSelectedButton" xml:space="preserve">
+    <value>Reshuffle Selected</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="SelectAllButton" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="SongList_Album" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="SongList_Artist" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="SongList_Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="SongList_FilePath" xml:space="preserve">
+    <value>File Path</value>
+    <comment>Not currently in use</comment>
+  </data>
+  <data name="SongList_FileSize" xml:space="preserve">
+    <value>File Size</value>
+    <comment>Not currently in use</comment>
+  </data>
+  <data name="SongList_Genre" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="SongList_Playlist" xml:space="preserve">
+    <value>Playlist</value>
+    <comment>Not currently in use</comment>
+  </data>
+  <data name="SongList_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="SongsBeingCopied" xml:space="preserve">
+    <value>The songs are being copied. Please wait.</value>
+  </data>
+  <data name="SongsYouAdded" xml:space="preserve">
+    <value>Songs You Added</value>
+  </data>
+  <data name="TotalFileSize" xml:space="preserve">
+    <value>Total File Size:</value>
+  </data>
+  <data name="UncheckAll" xml:space="preserve">
+    <value>Uncheck all</value>
+  </data>
+</root>
